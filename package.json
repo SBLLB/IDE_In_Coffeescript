@@ -4,7 +4,7 @@
   "description": "IDE written in coffeescript",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --compilers coffee:coffee-script/register -R spec"
   },
   "author": "RachelNolan",
   "license": "ISC",
